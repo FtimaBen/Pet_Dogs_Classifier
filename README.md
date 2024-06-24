@@ -56,7 +56,7 @@
 
 ## Image file: Dog_01.JPG
 
-<img https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_01.JPG width="250" height="250">
+<img src="https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_01.JPG" width="250" height="250">
 
 ### VGG16
 1. 	True label: **dog**	 Predicted label: **bow tie, bow-tie, bowtie**
@@ -78,7 +78,7 @@
 
 ## Image file: Gray_whale_01.JPG
 
-<img https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Gray_whale_01.JPG width="250" height="250">
+<img src="https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Gray_whale_01.JPG" width="250" height="250">
 
 ### VGG16
 1. True label: **gray whale**	 Predicted label: **grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus**
@@ -99,7 +99,7 @@
 4. AlexNet prediction is **Correct**.
 
 ## Image file: Dog_02.JPG
-<img https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_02.JPG) width="250" height="250">
+<img src="https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_02.JPG" width="250" height="250">
 
 ### VGG16
 1. 	True label: **dog**	 Predicted label: **bow tie, bow-tie, bowtie**
