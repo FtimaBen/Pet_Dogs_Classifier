@@ -3,8 +3,12 @@
 *
 
 **Project submitted to:** AWS Nanodegree Summer Program on Udacity
+
 **Last Edit:** 2024-06-24 20:46:50 Monday 
+
 **By:** FtimaBen
+
+
 #Default files
 
 - Classified images folder: *pet_images *
