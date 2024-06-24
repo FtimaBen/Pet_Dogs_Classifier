@@ -41,20 +41,17 @@
 
 ### VGG16
 1. 	True label: **teddy**	 Predicted label: **teddy, teddy bear**
-2. 	This image is **not a dog** image.
-3. 	The classifier Predicted it as **not a dog** image.
+2. 	This image is **not a dog** image. The classifier Predicted it as **not a dog** image.
 4. 	VGG16 prediction is **Correct**.
 
 ### ResNet18
 1. 	True label: **teddy**	 Predicted label: **teddy, teddy bear**
-2. 	This image is **not a dog** image.
-3. 	The classifier Predicted it as **not a dog** image.
+2. 	This image is **not a dog** image. The classifier Predicted it as **not a dog** image.
 4. 	ResNet18 prediction is **Correct**.
 
 ### AlexNet
 1. 	True label: **teddy**	 Predicted label: **teddy, teddy bear**
-2. 	This image is **not a dog** image.
-3. 	The classifier Predicted it as **not a dog** image.
+2. 	This image is **not a dog** image. The classifier Predicted it as **not a dog** image.
 4. 	AlexNet prediction is **Correct**.
 
 ## Image file: Dog_01.JPG
@@ -63,20 +60,17 @@
 
 ### VGG16
 1. 	True label: **dog**	 Predicted label: **bow tie, bow-tie, bowtie**
-2. 	This image **is a dog** image.
-3. 	The classifier predicted it as **not a dog** image.
+2. 	This image **is a dog** image. The classifier predicted it as **not a dog** image.
 4. 	VGG16 prediction is **False**.
 
 ### ResNet18
 1. True label: **dog**	 Predicted label: **cowboy hat, ten-gallon hat**
-2. This image **is a dog** image.
-3. The classifier predicted it as **not a dog** image.
+2. This image **is a dog** image. The classifier predicted it as **not a dog** image.
 4. ResNet18 prediction is **False**.
 
 ### AlexNet
 1. True label: **dog**	 Predicted label: **sombrero**
-2. 	This image **is a dog** image.
-3. 	The classifier predicted it as **not a dog** image.
+2. 	This image **is a dog** image. The classifier predicted it as **not a dog** image.
 4. 	AlexNet prediction is **False**.
 
 ## Image file: Gray_whale_01.JPG
@@ -85,20 +79,17 @@
 
 ### VGG16
 1. True label: **gray whale**	 Predicted label: **grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus**
-2. This image is **not a dog** image.
-3. The classifier perdicted it as **not a dog** image.
-4. vgg prediction is **Correct**.
+2. This image is **not a dog** image. The classifier perdicted it as **not a dog** image.
+4. VGG16 prediction is **Correct**.
 
 ### ResNet18
 1. 	True label: **gray whale**	 Predicted label: **grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus**
-2. 	This image is **not a dog** image.
-3. 	The classifier perdicted it as **not a dog** image.
-4. 	resnet prediction is **Correct**.
+2. 	This image is **not a dog** image. The classifier perdicted it as **not a dog** image.
+4. 	ResNet18 prediction is **Correct**.
 
 ### AlexNet
 1. True label: **gray whale**	 Predicted label: **grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus**
-2. This image is **not a dog** image.
-3. The classifier perdicted it as **not a dog** image.
+2. This image is **not a dog** image. The classifier perdicted it as **not a dog** image.
 4. AlexNet prediction is **Correct**.
 
 ## Image file: Dog_02.JPG
@@ -106,20 +97,17 @@
 
 ### VGG16
 1. 	True label: **dog**	 Predicted label: **bow tie, bow-tie, bowtie**
-2. 	This image **is a dog** image.
-3. 	The classifier predicted it as **not a dog** image.
-4. 	vgg prediction is **False**.
+2. 	This image **is a dog** image. The classifier predicted it as **not a dog** image.
+4. 	VGG16 prediction is **False**.
 
 ### ResNet18
 1. 	True label: **dog**	 Predicted label: **cowboy hat, ten-gallon hat**
-2. 	This image **is a dog** image.
-3. 	The classifier predicted it as **not a dog** image.
-4. 	ResNet prediction is **False**.
+2. 	This image **is a dog** image. The classifier predicted it as **not a dog** image.
+4. 	ResNet18 prediction is **False**.
 
 ### AlexNet
 1. 	True label: **dog**	 Predicted label: **sombrero**
-2. 	This image **is a dog** image.
-3. 	The classifier predicted it as **not a dog** image.
+2. 	This image **is a dog** image. The classifier predicted it as **not a dog** image.
 4. 	AlexNet prediction is **FALSE**.
 
 # Summary Uploaded Images
