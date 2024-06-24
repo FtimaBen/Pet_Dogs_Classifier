@@ -41,7 +41,6 @@
 
 #Results Of The Classification Of The Uploaded Images
 ## Image file: Teddy_01.JPG
-
 ###VGG16
 1. 	True label: **teddy**	 Predicted label: **teddy, teddy bear**
 2. 	This image is **not a dog** image.
