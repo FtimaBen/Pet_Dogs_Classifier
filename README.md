@@ -1,12 +1,11 @@
 # About
-*Classification Of Pet And Dog Images Using Famous Cnn Architecture.*
+*Classification Of Pet And Dog Images Using Famous CNN Architecture.*
 
-**Project submitted to:** AWS Nanodegree Summer Program on Udacity
+**Project submitted to:** AWS Nanodegree Summer Program on Udacity 
 
 **Last Edit:** 2024-06-24 20:46:50 Monday 
 
 **By:** FtimaBen
-
 
 # Default files
 
@@ -40,46 +39,46 @@
 ### VGG16
 1. 	True label: **teddy**	 Predicted label: **teddy, teddy bear**
 2. 	This image is **not a dog** image.
-3. 	The classifier perdicted it as **not a dog** image.
-4. 	vgg prediction is **Correct**.
+3. 	The classifier Predicted it as **not a dog** image.
+4. 	VGG16 prediction is **Correct**.
 
 ### ResNet18
 1. 	True label: **teddy**	 Predicted label: **teddy, teddy bear**
 2. 	This image is **not a dog** image.
-3. 	The classifier perdicted it as **not a dog** image.
-4. 	resnet prediction is **Correct**.
+3. 	The classifier Predicted it as **not a dog** image.
+4. 	ResNet18 prediction is **Correct**.
 
 ### AlexNet
 1. 	True label: **teddy**	 Predicted label: **teddy, teddy bear**
 2. 	This image is **not a dog** image.
-3. 	The classifier perdicted it as **not a dog** image.
-4. 	alexnet prediction is **Correct**.
+3. 	The classifier Predicted it as **not a dog** image.
+4. 	AlexNet prediction is **Correct**.
 
 ## Image file: Dog_01.JPG
 
-<img https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_01.JPG width="250" height="250" />
+<img https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_01.JPG width="250" height="250">
 
 ### VGG16
 1. 	True label: **dog**	 Predicted label: **bow tie, bow-tie, bowtie**
 2. 	This image **is a dog** image.
-3. 	The classifier perdicted it as **not a dog** image.
-4. 	vgg prediction is **False**.
+3. 	The classifier predicted it as **not a dog** image.
+4. 	VGG16 prediction is **False**.
 
 ### ResNet18
 1. True label: **dog**	 Predicted label: **cowboy hat, ten-gallon hat**
 2. This image **is a dog** image.
-3. The classifier perdicted it as **not a dog** image.
-4. resnet prediction is **False**.
+3. The classifier predicted it as **not a dog** image.
+4. ResNet18 prediction is **False**.
 
 ### AlexNet
 1. True label: **dog**	 Predicted label: **sombrero**
 2. 	This image **is a dog** image.
-3. 	The classifier perdicted it as **not a dog** image.
-4. 	alexnet prediction is **False**.
+3. 	The classifier predicted it as **not a dog** image.
+4. 	AlexNet prediction is **False**.
 
 ## Image file: Gray_whale_01.JPG
 
-<img https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Gray_whale_01.JPG width="250" height="250"/>
+<img https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Gray_whale_01.JPG width="250" height="250">
 
 ### VGG16
 1. True label: **gray whale**	 Predicted label: **grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus**
@@ -97,38 +96,38 @@
 1. True label: **gray whale**	 Predicted label: **grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus**
 2. This image is **not a dog** image.
 3. The classifier perdicted it as **not a dog** image.
-4. alexnet prediction is **Correct**.
+4. AlexNet prediction is **Correct**.
 
 ## Image file: Dog_02.JPG
-<img https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_02.JPG) width="250" height="250"/>
+<img https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_02.JPG) width="250" height="250">
 
 ### VGG16
 1. 	True label: **dog**	 Predicted label: **bow tie, bow-tie, bowtie**
 2. 	This image **is a dog** image.
-3. 	The classifier perdicted it as **not a dog** image.
+3. 	The classifier predicted it as **not a dog** image.
 4. 	vgg prediction is **False**.
 
 ### ResNet18
 1. 	True label: **dog**	 Predicted label: **cowboy hat, ten-gallon hat**
 2. 	This image **is a dog** image.
 3. 	The classifier predicted it as **not a dog** image.
-4. 	resnet prediction is **False**.
+4. 	ResNet prediction is **False**.
 
 ### AlexNet
 1. 	True label: **dog**	 Predicted label: **sombrero**
 2. 	This image **is a dog** image.
 3. 	The classifier predicted it as **not a dog** image.
-4. 	alexnet prediction is **FALSE**.
+4. 	AlexNet prediction is **FALSE**.
 
 # Summary Uploaded Images
 *Full summaries in folder : results_uploaded_images/*
 
-| |Percentage VGG16| Percentage ResNet18 | Percentage AlexNet |
-|---------------------|
-| Pct match | 50.0% | 50.0% | 50.0% |
-| Pct correct dogs | 0.0% | 0.0% | 0.0% |
-| Pct correct breed | 0.0% | 0.0% | 0.0% |
-| Pct correct notdogs | 100.0% | 100.0% | 100.0% |
+|                   | Percentage VGG16 | Percentage ResNet18 | Percentage AlexNet |
+|-------------------|------------------|---------------------|-------------------|
+| Pct match         |      50.0%       |        50.0%        |       50.0%       |
+| Pct correct dogs  |       0.0%       |         0.0%        |        0.0%       |
+| Pct correct breed |       0.0%       |         0.0%        |        0.0%       |
+| Pct correct notdogs|    100.0%       |       100.0%        |      100.0%       |
 
 # Summary Pet Images
 *Full summaries in folder : results_images/*
