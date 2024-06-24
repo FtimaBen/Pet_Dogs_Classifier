@@ -1,10 +1,3 @@
-
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
 # About
 *Classification Of Pet And Dog Images Using Famous Cnn Architecture. 
 *
