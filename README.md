@@ -1,6 +1,5 @@
 # About
-*Classification Of Pet And Dog Images Using Famous Cnn Architecture. 
-*
+*Classification Of Pet And Dog Images Using Famous Cnn Architecture.*
 
 **Project submitted to:** AWS Nanodegree Summer Program on Udacity
 
@@ -83,10 +82,10 @@
 <img https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Gray_whale_01.JPG width="250" height="250"/>
 
 ### VGG16
-1. - True label: **gray whale**	 Predicted label: **grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus**
-2. - This image is **not a dog** image.
-3. - The classifier perdicted it as **not a dog** image.
-4. - vgg prediction is **Correct**.
+1. True label: **gray whale**	 Predicted label: **grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus**
+2. This image is **not a dog** image.
+3. The classifier perdicted it as **not a dog** image.
+4. vgg prediction is **Correct**.
 
 ### ResNet18
 1. 	True label: **gray whale**	 Predicted label: **grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus**
@@ -134,12 +133,12 @@
 # Summary Pet Images
 *Full summaries in folder : results_images/*
 
-| |Percentage VGG16| Percentage ResNet18 | Percentage AlexNet |
-|---------------------|
-| Pct match | 87.5% | 82.5% | 75.0% |
-| Pct correct dogs | 100.0% | 100.0% | 100.0% |
-| Pct correct breed | 93.33% | 90.0% | 80.0% |
-| Pct correct notdogs | 100.0% | 90.0% | 100.0% |
+|            | Percentage VGG16 | Percentage ResNet18 | Percentage AlexNet |
+|------------|------------------|---------------------|-------------------|
+| Pct match  |      87.5%       |        82.5%        |       75.0%       |
+| Pct correct dogs | 100.0%       |        100.0%       |      100.0%       |
+| Pct correct breed | 93.33%      |        90.0%        |       80.0%       |
+| Pct correct notdogs | 100.0%    |        90.0%        |      100.0%       |
 
 # Conclusion and answered questions
 Questions regarding Uploaded Image Classification:
@@ -160,4 +159,4 @@ Questions regarding Uploaded Image Classification:
 
 	**Answer: The three models could not recognize the dog but recognized the hat**
 
-**Conclusion: ** VGG16 gave the best results with the pet images but with uploaded images the models gave the same results.
+**Conclusion:** VGG16 gave the best results with the pet images but with uploaded images the models gave the same results.
