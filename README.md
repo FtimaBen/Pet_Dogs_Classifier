@@ -42,7 +42,7 @@
 #Results Of The Classification Of The Uploaded Images
 ## Image file: Teddy_01.JPG
 
-![Teddy_01.JPG](https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Teddy_01.JPG)
+![Teddy_01.JPG](https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Teddy_01.JPG =250x250)
 
 ###VGG16
 1. 	True label: **teddy**	 Predicted label: **teddy, teddy bear**
@@ -64,7 +64,7 @@
 
 ## Image file: Dog_01.JPG
 
-![Dog_01.JPG](https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_01.JPG)
+![Dog_01.JPG](https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_01.JPG =250x250)
 
 ###VGG16
 1. 	True label: **dog**	 Predicted label: **bow tie, bow-tie, bowtie**
@@ -107,7 +107,6 @@
 4. alexnet prediction is **Correct**.
 
 ## Image file: Dog_02.JPG
-
 ![Dog_02.JPG](https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Dog_02.JPG)
 
 ###VGG16
