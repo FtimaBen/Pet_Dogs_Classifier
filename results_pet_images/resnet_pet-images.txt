@@ -557,16 +557,16 @@ Pct Corr dog: 100.0 Pct Corr NOTdog:  90.0  Pct Corr Breed:  90.0
 	The classifier perdicted it as a dog image.
 	resnet prediction is Correct.
 # Summary:
-N images: 40
-N dogs img: 30
-N notdogs img: 10
-N match: 33
-N correct dogs: 30
-N correct notdogs: 9
-N correct breed: 27
-Pct match: 82.5
-Pct correct dogs: 100.0
-Pct correct breed: 90.0
-Pct correct notdogs: 90.0
+N images: 40 
+N dogs img: 30 
+N notdogs img: 10 
+N match: 33 
+N correct dogs: 30 
+N correct notdogs: 9 
+N correct breed: 27 
+Pct match: 82.5%
+Pct correct dogs: 100.0%
+Pct correct breed: 90.0%
+Pct correct notdogs: 90.0%
 
 ** Total Elapsed Runtime: 0:0:14

@@ -90,9 +90,9 @@ N match: 2
 N correct dogs: 0
 N correct notdogs: 2
 N correct breed: 0
-Pct match: 50.0
-Pct correct dogs: 0.0
-Pct correct breed: 0.0
-Pct correct notdogs: 100.0
+Pct match: 50.0%
+Pct correct dogs: 0.0%
+Pct correct breed: 0.0%
+Pct correct notdogs: 100.0%
 
 ** Total Elapsed Runtime: 0:0:5

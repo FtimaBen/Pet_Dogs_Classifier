@@ -53,7 +53,7 @@ def get_input_args():
         'cmd': '--dogfile',
         'type': str,
         'default': 'dognames.txt',
-        'help': 'Text File with Dog Names'
+        'help': 'path to text File with Dog Names'
       }
     ]
 

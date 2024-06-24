@@ -557,16 +557,16 @@ Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  93.3
 	The classifier perdicted it as a dog image.
 	vgg prediction is Correct.
 # Summary:
-N images: 40
-N dogs img: 30
-N notdogs img: 10
-N match: 35
-N correct dogs: 30
-N correct notdogs: 10
-N correct breed: 28
-Pct match: 87.5
-Pct correct dogs: 100.0
-Pct correct breed: 93.33333333333333
-Pct correct notdogs: 100.0
+N images: 40 
+N dogs img: 30 
+N notdogs img: 10 
+N match: 35 
+N correct dogs: 30 
+N correct notdogs: 10 
+N correct breed: 28 
+Pct match: 87.5%
+Pct correct dogs: 100.0%
+Pct correct breed: 93.33%
+Pct correct notdogs: 100.0%
 
 ** Total Elapsed Runtime: 0:0:46
