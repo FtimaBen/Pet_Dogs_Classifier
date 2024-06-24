@@ -1,0 +1,98 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                   Teddy_01.JPG  label:                      teddy
+ 2 key:                     Dog_01.JPG  label:                        dog
+ 3 key:              Gray_whale_01.JPG  label:                 gray whale
+ 4 key:                     Dog_02.JPG  label:                        dog
+
+     MATCH:
+
+                  Teddy_01.JPG: 
+Real:                      teddy   Classifier:              teddy, teddy bear
+
+             Gray_whale_01.JPG: 
+Real:                 gray whale   Classifier: grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+
+ NOT A MATCH:
+
+                    Dog_01.JPG: 
+Real:                        dog   Classifier:                       sombrero
+
+                    Dog_02.JPG: 
+Real:                        dog   Classifier:                       sombrero
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+     MATCH:
+
+                  Teddy_01.JPG: 
+Real:                      teddy   Classifier:              teddy, teddy bear  
+PetLabelDog: 0  ClassLabelDog: 0
+
+             Gray_whale_01.JPG: 
+Real:                 gray whale   Classifier: grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                    Dog_01.JPG: 
+Real:                        dog   Classifier:                       sombrero  
+PetLabelDog: 1  ClassLabelDog: 0
+
+                    Dog_02.JPG: 
+Real:                        dog   Classifier:                       sombrero  
+PetLabelDog: 1  ClassLabelDog: 0
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:   0.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:   0.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+# The results for the model alexnet
+
+# Image file: Teddy_01.JPG
+	True label: teddy	 Predicted label: teddy, teddy bear
+	This image is not a dog image.
+	The classifier perdicted it as not a dog image.
+	alexnet prediction is Correct.
+
+# Image file: Dog_01.JPG
+	True label: dog	 Predicted label: sombrero
+	This image is a dog image.
+	The classifier perdicted it as not a dog image.
+	alexnet prediction is False.
+
+# Image file: Gray_whale_01.JPG
+	True label: gray whale	 Predicted label: grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+	This image is not a dog image.
+	The classifier perdicted it as not a dog image.
+	alexnet prediction is Correct.
+
+# Image file: Dog_02.JPG
+	True label: dog	 Predicted label: sombrero
+	This image is a dog image.
+	The classifier perdicted it as not a dog image.
+	alexnet prediction is False.
+# Summary:
+N images: 4
+N dogs img: 2
+N notdogs img: 2
+N match: 2
+N correct dogs: 0
+N correct notdogs: 2
+N correct breed: 0
+Pct match: 50.0
+Pct correct dogs: 0.0
+Pct correct breed: 0.0
+Pct correct notdogs: 100.0
+
+** Total Elapsed Runtime: 0:0:0
