@@ -42,8 +42,6 @@
 #Results Of The Classification Of The Uploaded Images
 ## Image file: Teddy_01.JPG
 
-![Teddy_01.JPG](https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/uploaded_images/Teddy_01.JPG =250x250)
-
 ###VGG16
 1. 	True label: **teddy**	 Predicted label: **teddy, teddy bear**
 2. 	This image is **not a dog** image.
