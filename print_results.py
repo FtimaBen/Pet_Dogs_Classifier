@@ -76,5 +76,5 @@ def print_results(results_dic, results_stats_dic, model,
 
     #Print the stats
     print('# Summary:')
-    for key, stat in results_stats_dic.items():
-        print(f'{key.capitalize().replace("_", " ")}: {results_stats_dic[key]}')
+    for key, stat in results_stats_dic.keys():
+        print(f'{key.capitalize().replace("_", " ")}: {stat: .2f}%')

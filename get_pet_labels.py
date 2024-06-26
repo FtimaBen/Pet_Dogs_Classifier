@@ -36,11 +36,16 @@ def get_pet_labels(image_dir):
       List. The list contains for following item:
          index 0 = pet image label (string)
     """
+    # the label must be of format : .JPG or 
     images = listdir(image_dir)
-
-    results_dic = {
-      filename: [' '.join(filename.lower().split('_')[:-1])] for filename in images
-    }
+    results_dic = dict()
+    
+    for filename in images:
+      if filename.endswith('.jpg'):
+        filename = filename[: -len('.jpg')]
+        filename_splited = filename.lower().split('_')
+        
+        results_dic[filename] = ' '.join([ fs for fs in filename_splited if fs.isalpha() ])
 
     if len(results_dic) != len(images):
       print(f'Duplicated images in {image_dir}')

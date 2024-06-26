@@ -59,7 +59,6 @@ def get_input_args():
 
     # Create 3 command line arguments as mentioned above using add_argument() from ArguementParser method
     for command in commands:      
-      parser.add_argument(command['cmd'], type = command['type'], default = command['default'], 
-                      help = command['help']) 
+      parser.add_argument(command['cmd'], type = command['type'], default = command['default'], help = command['help']) 
       
     return parser.parse_args()

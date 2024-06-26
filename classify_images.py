@@ -68,10 +68,8 @@ def classify_images(images_dir, results_dic, model):
       #classifier image
       classifier_label = classifier(img_path=img_path, model_name=model)
 
-      #save label
-      results_dic[img].append(classifier_label)
-
-      #save 0 or 1
+      #save label and 1 or 0 for match
+      classifier_label_arr = classifier_label.lower().split(', ')
       true_label = results_dic[img][0]
-      classifier_label = classifier_label.lower().split(', ')
-      results_dic[img].append(int(true_label in classifier_label))
+      
+      results_dic[img].exntend([classifier_label,  int(true_label in classifier_label_arr)])
