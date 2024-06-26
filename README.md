@@ -3,7 +3,7 @@
 
 **Project submitted to:** AWS Nanodegree Summer Program on Udacity 
 
-<img src="https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-not-reviewed/cert_image/cert_of_completion.JPG" height="250" width="250">
+<img src="https://github.com/FtimaBen/Pet_Dogs_Classifier/blob/Submit-classifier-reviewed/cert_image/cert_of_completion.JPG" height="250" width="250">
 
 # Default files
 
